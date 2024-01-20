@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal Scorer</title>
+     <link rel="stylesheet" href="style.css">
+    <style>
+    
+        .container h1{
+        	margin: 10px 10px 20px 10px;
+        }
+        /* Styling for rotating ⚽ symbol on hover */
+        .container p {
+            position: relative;
+        }
+
+        .container p::before {
+            content: url('images/football.png');
+            display: inline-block;
+            font-size: 20px;
+            margin-right: 5px;
+            transition: transform 0.5s;
+        }
+
+        .container p:hover::before {
+            transform: rotate(360deg);
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/goal1.png" alt="Logo">
+        <h1 style= "margin-top:40px;">Goal Scorer</h1>
+    </header>
+
+    <div class="container">
+        <h1>Welcome to Goal Scorer</h1>
+        <hr>
+        <marquee>Get All live Score Of Football Matches Here.</marquee>
+        <hr>
+        <strong>Football Leagues and Competitions:</strong>
+        <p>Indian Super League</p>
+        <p>AFC Asian Cup </p>
+        <p>UEFA Champions League</p>
+        <p>English FA Cup </p>
+        <p>Spanish LA LIGA</p>
+        <p>Premier League</p>
+        <hr>
+        <a class="links" href="login.jsp">Login</a> | <a class="links" href="register.jsp">Register</a>
+    </div>
+
+    <footer>
+        &copy; 2024 GoalScorer. All rights reserved.
+    </footer>
+</body>
+</html>
