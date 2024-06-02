@@ -8,7 +8,7 @@ public class DBUtil {
 	
 	private static String url="jdbc:mysql://localhost:3306/";
 	private static String username="root";
-	private static String password="dbms";
+	private static String password="password";
 	private static String db="goalscorer";
 	static {
         try {
