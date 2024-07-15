@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import com.goalscorer.Util.MatchContainer;
+import com.goalscorer.Util.MatchData;
 
 /**
  * Servlet implementation class HomeServlet
@@ -30,19 +31,9 @@ public class HomeServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		ArrayList<MatchContainer> matchList=new ArrayList<>();
-		for (int i = 0; i < 12; i++) {
-		    MatchContainer container = new MatchContainer();
-		    container.setStatus("Live");
-		    container.setTeam1("RM");
-		    container.setTeam2("BRA");
-		    container.setT1Score(4);
-		    container.setT2Score(2);
-		    container.setTime("78'");
-		    container.setTournament("La Liga");
-		    matchList.add(container);
-		    
-		}
+		MatchData matchData=new MatchData();
+		ArrayList<MatchContainer> matchList=matchData.getData();
+
 
 		request.setAttribute("matchList", matchList);
 		
