@@ -1,4 +1,4 @@
-<hr><h1>    <strong> LIVE FOOTBALL SCORE - WEBSITE (PROJECT) </strong>    </h1>  <hr>
+![image](https://github.com/user-attachments/assets/0d6e2e95-76d1-4b89-a87f-54a4f74f6d41)<hr><h1>    <strong> LIVE FOOTBALL SCORE - WEBSITE (PROJECT) </strong>    </h1>  <hr>
 
 <h3>->This is website show Live Score of Football Matches. </h3><br>
 
@@ -20,7 +20,8 @@ Login Page:![image](https://github.com/Aryan0097/Football-Live-Score/assets/1418
 
 Register Page:![image](https://github.com/Aryan0097/Football-Live-Score/assets/141852653/18cf5cd1-58de-4603-9058-7c352ce38b79)
 
-Home Page:![image](https://github.com/Aryan0097/Football-Live-Score/assets/141852653/e72d918b-33df-4cff-90a5-61a30b2f3cf6)
+Home Page:![image](https://github.com/user-attachments/assets/c86ad0aa-811a-434f-bef3-82951ff35cf7)
+
 
 
 
